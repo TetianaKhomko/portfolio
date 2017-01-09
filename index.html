@@ -1,0 +1,631 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Portfolio Tetiana Khomko | Web Master| Web Design | Web Development Lviv</title>
+<meta name="description" content="Building a website for business purpose is not easy, because you need some time to develop it and make it get the targeted performance. You have to know the important tools that you need to have in order to build a powerful website."/>
+<meta name="keywords" content="web master | web designer | creative design | Lviv | web development | website"/>  
+<meta name="y_key" content="7c6833396bcc4b72"/>
+<meta http-equiv="Content-Language" content="en-us"/>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="author" content="Tetiana Khomko"/> 
+<meta name="robots" content="index, follow"/>
+<meta name="distribution" content="global"/> 
+<meta name="rating" content="general"/>
+<meta name="revisit-after" content="14 days"/>
+<link rel="stylesheet" type="text/css" href="css/style.css"/>
+<link rel="stylesheet" type="text/css" href="css/colorbox.css"/>
+<link rel="stylesheet" type="text/css" href="css/styles.css"/>
+<link rel="stylesheet" type="text/css" href="css/index-cufon.css">
+<!--[if lt IE 8]>
+<link href="css/styleie.css" rel="stylesheet" type="text/css" />
+<![endif]-->
+<script type="text/javascript" src="js/jquery-1.3.2.min.js"></script>
+<script type="text/javascript" src="colorbox/jquery.colorbox.js"></script>
+<script src="js/cufon.js" type="text/javascript"></script>
+<script src="js/Yanone_Kaffeesatz_400.font.js" type="text/javascript"></script>
+<script src="js/Opificio_400.font.js" type="text/javascript"></script>
+<script src="js/Journal_400.font.js" type="text/javascript"></script>
+<script type="text/javascript" src="js/jquery-ui.min.js"></script>
+<script type="text/javascript" src="js/jquery.flip.min.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+<script type="text/javascript"> 
+var control = "element1";
+$(document).ready(function() {
+Cufon.replace('h1', {fontWeight: '400',fontFamily: 'Yanone Kaffeesatz'});
+Cufon.replace('#menu li a', {fontWeight: '400', hover:true, fontFamily: 'Yanone Kaffeesatz'});
+Cufon.replace('h2', {fontWeight: '400', hover:true, fontFamily: 'Journal'});
+Cufon.replace('.left h2', {fontWeight: '400',fontFamily: 'Yanone Kaffeesatz'});
+Cufon.replace('h3', {fontWeight: '400',fontFamily: 'Yanone Kaffeesatz'});
+$(".menu li a").click(function(){
+$(".menu li a").removeClass("activo");
+$(this).addClass("activo");					 
+var active = $(this).attr("id");
+if(control!=active){
+$("."+control).fadeOut(function(){
+$("."+active).fadeIn(1000);
+control= active;
+});
+}
+});
+//Animate social button
+$(".soc a").mouseover(function(){
+$(this).animate({ marginTop: "-5px"}, 500, function() {
+});});$(".soc a").mouseout(function(){$(this).animate({marginTop: "-95px"
+}, 500, function() {});
+});
+$("a[rel='example1']").colorbox();
+var cont = 0;
+$(".top").mouseover(function(){
+$('.top').animate({marginTop: '-=1'}, 70, function() {
+});
+});
+$(".top").mouseout(function(){
+$('.top').animate({ marginTop: '+=1'}, 70, function() {});
+});
+$(".top").click(function(){
+if(cont==0){
+$('.info').animate({marginTop: '-=250'}, 700, function() {});
+cont=1;
+}else if(cont==1){$('.info').animate({marginTop: '+=250'
+}, 700, function() {});
+cont=0;
+}});
+});
+</script>
+</head>
+
+<body>
+ ::after
+ <div id="cboxOverlay" style="display: none;"></div>
+ <div id="colorbox" class style="padding-bottom: 42px; padding-right: 42px; display: none;">
+  <div id="cboxWrapper">
+   <div id="cboxTopLeft" style="float: left;"></div>
+   <div id="cboxTopCenter" style="float: left;"></div>
+   <div id="cboxTopRight" style="float: left;"></div>
+  </div> 
+  <div style="clear: left;">
+   <div id="cboxMiddleLeft" style="float: left;"></div>
+   <div id="cboxContent" style="float: left;">
+   <div id="cboxLoadedContent" style="width: 0px; height: 0px; overflow: hidden; class"></div>
+   <div id="cboxLoadingOverlay" class></div>
+   <div id="cboxLoadingGraphic" class></div>
+   <div id="cboxTitle" class></div>
+   <div id="cboxCurrent" class></div>
+   <div id="cboxNext" class></div>
+   <div id="cboxPrevious" class></div>
+   <div id="cboxSlideshow" class></div>
+   <div id="cboxClose" class></div>
+  </div>
+  <div id="cboxMiddleRight" style="float: left;"></div>
+ </div>
+ <div style="clear: left">
+  <div id="cboxBottomLeft" style="float: left;"></div>
+  <div id="cboxBottomCenter" style="float: left;"></div>
+  <div id="cboxBottomRight" style="float: left;"></div>
+ </div>
+ <div style="position: absolute; width: 9999px; visibility: hidden; display: none;"></div>
+ </div>
+<!--Begin contheader -->
+<div class="contheader">
+<!--Begin contmenu -->
+<div class="contmenu">
+<!--Begin social --> 
+<div class="social">
+<div class="soc" id="r1"><a href="https://www.facebook" id="social1">Facebook</a></div>
+<div class="soc" id="r2"><a href="https://twitter" target="_blank" id="social2">Twitter</a></div>
+<div class="soc" id="r3"><a href="http://id.linkedin" id="social3">Linked</a></div>
+</div>
+<!--End social --> 
+<!--Begin menup --> 
+<div class="menup">
+<ul class="menu" id="menu">
+<li><a id="element1"  class="activo"> <span>
+ <cufon class="cufon cufon-canvas" alt="ABOUT" style="width: 36px; height: 17px;"><canvas width="49" height="20" style="width: 49px; height: 20px; top: -3px; left: -2;">
+ <cufontext>ABOUT</cufontext>
+ </cufon>
+ </span><br/>
+ <cufon class="cufon cufon-canvas" alt="ME" style="width: 14px; height: 17px;">
+  <canvas width="29" height="20" style="width: 29px; height: 20px; top: -3px; left: -2px;">
+ <cufontext>ME</cufontext></cufon></a></li>
+<li><a id="element2"> <span>Project</span><br/> EXPERIENCE</a></li>
+<li><a id="element3"> <span>Portfolio</span><br/> OF WORK</a></li>
+<li><a id="element4"> <span>Skill</span><br/> TECHNICAL</a></li>
+<li><a id="element5"> <span>Other</span><br/> INFORMATION</a></li>
+</div>
+<!--End menup -->
+<div style="clear:both;"></div>  
+<div class="cur"></div>
+<div class="cur2"></div>
+</div>
+     <!--End contmenu -->
+	 <!--Begin header -->
+    <div class="header" >
+     <!--End part1 -->
+     <div class="part1">
+    	<!--Begin logo --> 
+    	<div class="logo" >
+            <a  class="image" id="logo"><img src="images/Tet.jpeg" alt="Tetiana Khomko  - Web Designer" /></a> 
+        </div>
+        <!--End logo --> 
+        <!--Begin info --> 
+<div class="info" >
+<h1>Tetiana <span class="orange">Khomko </span></h1>
+<h3 class="mail">Email: arnelli.tt@gmail.com</h3>
+<div class="clear"></div>
+<div class="line"></div>
+<h2 class="work">Web Designer</h2>
+<h2 class="telf">+380931924302</h2>
+<div class="clear"></div>
+<div class="line2"></div>
+</div>
+<!--End info -->
+<!--End info2 -->
+<div class="info2" >
+<h1>Tetiana <span class="orange">Khomko</span></h1>
+<h3 class="mail">Website: creativedesign.com</h3>
+<div class="clear"></div>
+<div class="line"></div>
+<h2 class="work">Web Development</h2>
+<h2 class="telf"> Lviv - Ukraine</h2>
+<div class="clear"></div>
+<div class="line2"></div>
+</div>
+<!--End info2 -->
+<div class="clear"></div>
+</div>
+<!--End header -->
+<div class="clear"></div>
+</div>
+<!--End contheader -->
+<!--Begin botones -->
+<div class="cont2">
+<div class="botones">
+<a href="#" class="top" >top</a>
+</div>
+<!--End botones -->
+</div>
+</div>
+<!--End contheader -->
+<div class="wrap">
+<!--Main page posts -->
+<div class="main_page_posts">
+<div class="element1">
+<!--Begin contleft -->
+<div class="contleft"> 
+<div class="left">
+<h2 style="text-align:right;">About<br/><span class="orange">Me</span></h2>
+<!--<a href="#><img srs="Tet.jpeg alt="tetiana khomko" align="right" border="0" /></a>-->
+</div>
+</div>
+<!--End contleft --> 
+<!--  Begin post -->
+<div class="post">
+<div class="post_content">
+<div  class="partcontent">
+<h3>About Me</h3>
+<p class="date"><a href="#"></a></p>
+<p>Building a website for business purpose is not easy, because you need some time to develop it and make it get the targeted performance. You have to know the important tools that you need to have in order to build a powerful website. Nowadays it is relatively easy to create a website, but you need strategies to make it work as you expect to get the expected profit. Firstly you should determine the idea of web design that you will apply, so that you can clearly convey the value and image of the site. It has been such a long way for me to get the result that I have right now, because I have been in website developing for 3 month along with design graphic and also tool marketing.<br /><br />
+When I first create a website for business purpose, I thought about how it would gain good reputation from its performance, because there have to be tactics so that your visitors would not just forget about your site. As web developer I have to make people trust my site, and the most important thing is how to make them contact you after they leave the site.<br /><br />
+My site itself is offering web design service in Lviv, and if you are about to build your own site then nowadays there are various services and software that would make it easier.
+The service of web developing and design can also help you in increasing the traffic of your site with search engine optimization features. With high quality service of <a href="#">creative design</a>, it is the beginning of successful internet marketing so that your company will get higher position in the market. <br />
+<br />To get all of the services you need in one package, you can use the assistance of web hosting that suits your site category. With the right assistance you will be able to build your own powerful business website. <br />Please contact me at: <a href="#">my e-mail</a>, if you interest about develop your web.</p>
+</div>
+<!--  End content1 -->
+</div>
+<!--  End post_content -->    
+</div>
+<!--  End post -->
+</div>
+<!-- End contright -->
+<div style="clear:both">
+</div>
+<div class="element2">
+<div class="contleft"> 
+<div class="left">
+<h2 style="text-align:right;">Project<br/><span class="orange">Experience</span></h2>		</div>
+</div>
+<!--  Begin post -->
+<div class="post">
+<div class="post_content">
+<div class="partcontent">
+<h3>Project Experience</h3>
+<p class="date"><a href="#">Tetiana Khomko</a></p>
+<p>Making your site powerful needs several strategy and tactics so that it will reach the traffic and performance that you expect. I have been working as web developer for years and there are many projects that I have handled in the field of web design along with its development in order to convey the value of business site. The assistance of my company is specified in Lviv-city, so if you have any kind of business there you can be sure to trust this service.<br /><br />
+If you would like to know more about the services included here, you can explore the details of each category, you will see that we provide professional <a href="#">creative design</a> assistance along with tool marketing that would enable you to have better performance in the market. To reach the targeted traffic, you can also use the service of SEO which would put your site on top position of any search engine results.<br /><br />
+ There are still more packages to offer for your powerful site purpose. When you use this service you will also get cd interactive to make you understand better about how to improve your site’s performance. You may also use our assistance to help you in web marketing and company logo which matches your business value.</p>
+
+<h3><a href="#">Web Development, my project</a></h3>
+<p class="date">JULY 2016 </p>
+<p>Another successful show has concluded and on behalf Organizers <a href="#">my project</a>, we wish to extend our sincere gratitude for your support in the Lviv. We hope that your participation in this year Lviv has brought positive Business and Connections for the year ahead.</p>
+
+<h3><a href="#">Web Development - my project2 &amp; discribe &amp; </a></h3>
+<p class="date">JULY 2016 - 2017</p>
+<p>Lviv is one of the most beautiful city on earth Europe with its beauty and smiling people.
+The cultural, religion and art are steepedin centuries of tradition, plays a major role in the everyday life of the ukrainians. It's reflected in their temples, religious ceremonies and dances.<br />
+it is provides the perfect <a href="#">it is great</a> for your holiday. Pass through our gates, friendly welcome from our staffs make yourstay unforgetable.</p>
+
+<h3><a href="#">Web Development - my project3</a></h3>
+<p class="date">FEBRUARY 2016</p>
+<p><a href="#">hotel Lviv</a> is an exclusive enclave of 3 luxury villas on a black sand and rock style. Only 90 minutes by car from international airport and a world away in tradition and amenities. Private swimming pools at the edge of the sea invite lounging and soaking. <br />
+Three villas are available on a limited basis for rental: Villa 1 with two bedrooms on the second floor with sweeping views of the forest; large private baths with each bedroom have stunning views of the forest; sumptuous living, dining areas and balconies offer a relaxing environment for lazy days. <br />
+Villa 1 shares a natural salt treated swimming pool with magnificent forest and fresh air with Villa 2. <br />
+Villa 2 features two master bedroom suites; the upstairs Neptune Suite has spacious decks, balconies and comfortable living and dining areas with sweeping forest and mountain views; the spacious downstairs Forum Suite has a ukrainian day bed on the balcony with comfortable lounges and eating areas overlooking the gardens.<br />
+Villa 3 is a large private balconied cottage in a private garden ideal for honeymoons and romantic getaways; the outdoor bath has a spacious 2-person tub; the private swimming pool by the seashore is a few steps from the veranda; an antique ukrainian gazebo makes a comfortable private day-bed beside the pool.</p>
+
+<h3><a href="#">Web Development - my project4</a></h3>
+<p class="date">DECEMBER 2016</p>
+<p><a href="#">this</a> is renowned for their exclusive and unique properties in different beautiful areas of Lviv. Our brand management is synonymous with excellence and quality</p>
+
+<h3><a href="#">Web Development - my project5</a></h3>
+<p class="date">JULY 2016</p>
+<p><a href="#">This</a> is located in west side of Lviv, The place that really famous for cultures and arts Tourism objects in this city.<br />
+it is provides Traditional training and certificates for every graduate. Designed for the novice or the professional therapist, our experienced team of trainers will guide you through the steps of Ukraine traditional treatments, Traditional ukrainian food product and another traditional Treatment out from Ukraine.<br />
+this cafeteria provides training courses from 1 day up to 3 months, which give you knowledge and experience to secret ukrainian tradition.</p>
+
+<h3><a href="#">Web Development - my project6</a></h3>
+<p class="date">APRIL 2016</p>
+<p>this mall is one of online shopping which provides unique souvenirs from iron handicrafts. Why Lviv handicraft? As popularly known, that Lviv is one of famous tourist destination and have so many talented art workers with their valuable artworks.<br />
+ handicraft is one of the oldest and mostly used metals. Because of reflecting the perfect fusion of high strength and low cost, it is used to craft a variety of items. Our exhaustive range of iron handicrafts is created by the agile hands of blacksmiths, who have years of vast experience in this field and hence excel in their art. Our range comprises candle holders, garden decorative accessories, home decor accessories, fire place accessories and other items. These products have been given the finish of rust resistance powder, which makes them last for long duration of time.</p>
+
+</div>
+
+<!--  End content1 -->
+</div>
+</div>
+<!--  End post -->
+</div>
+<!-- End contright -->
+<div style="clear:both">
+</div>
+<div class="element3">
+<div class="contleft"> 
+<div class="left">
+<h2 style="text-align:right;">Portfolio<br/><span class="orange">Of Work</span></h2></div>
+</div>
+<!--  Begin post -->
+<div class="post">
+<div class="post_content">
+<div class="partcontent">
+<div class="sponsorListHolder">
+<div class="sponsor" title="Click to flip">
+<div class="sponsorFlip">
+<img src="img_portfolio/" alt="portfolio" />
+</div>
+					
+<div class="sponsorData">
+<div class="sponsorDescription">
+<h4>DESIGN AND DEVELOPER</h4><span class="orange">by Tetiana Khomko<br />
+<a href="#" target="_blank">my work</a></span>
+</div>
+<div class="sponsorURL">
+<a href="#" target="_blank" title="more">+ more</a>
+</div>
+
+</div>
+</div>
+<div class="sponsor" title="Click to flip">
+<div class="sponsorFlip">
+<img src="img_portfolio/.jpg" alt="portfolio" />
+</div>
+<div class="sponsorData">
+<div class="sponsorDescription">
+<h4>DESIGN AND DEVELOPER</h4><span class="orange">by Tetiana Khomko</span>
+<a href="#" target="_blank">name of site</a></span>
+</div>
+<div class="sponsorURL">
+<a href="#" target="_blank" title="more">+ more</a>
+</div>
+</div>
+</div>
+<div class="sponsor" title="Click to flip">
+<div class="sponsorFlip">
+<img src="img_portfolio/.jpg" alt="portfolio images Tetiana Khomko" />
+</div>
+					
+<div class="sponsorData">
+<div class="sponsorDescription">
+<h4>DESIGN AND DEVELOPER</h4><span class="orange">by Tetiana Khomko</span>
+<a href="#" target="_blank">name of site</a></span>
+</div>
+<div class="sponsorURL">
+<a href="#" target="_blank" title="more">+ more</a>
+</div>
+</div>
+</div>
+
+<div class="sponsor" title="Click to flip">
+<div class="sponsorFlip">
+<img src="img_portfolio/.jpg" alt="portfolio" />
+</div>
+					
+<div class="sponsorData">
+<div class="sponsorDescription">
+<h4>DESIGN AND DEVELOPER</h4><span class="orange">by Tetiana Khomko</span>
+<a href="#" target="_blank">name of site</a></span>
+</div>
+<div class="sponsorURL">
+<a href="#" target="_blank" title="more">+ more</a>
+</div>
+</div>
+</div>
+<div class="sponsor" title="Click to flip">
+<div class="sponsorFlip">
+<img src="img_portfolio/.jpg" alt="portfolio" />
+</div>
+					
+<div class="sponsorData">
+<div class="sponsorDescription">
+<h4>DESIGN AND DEVELOPER</h4><span class="orange">by Tetiana Khomko</span>
+<a href="#" target="_blank">name of site</a></span>
+</div>
+<div class="sponsorURL">
+<a href="#" target="_blank" title="more">+ more</a>
+</div>
+</div>
+</div>
+<div class="sponsor" title="Click to flip">
+<div class="sponsorFlip">
+<img src="img_portfolio/.jpg" alt="portfolio" />
+</div>
+<div class="sponsorData">
+<div class="sponsorDescription">
+<h4>DESIGN AND DEVELOPER</h4><span class="orange">by Tetiana Khomko</span>
+<a href="#" target="_blank">name of site</a></span>
+</div>
+<div class="sponsorURL">
+<a href="#" target="_blank" title="more">+ more</a>
+</div>
+</div>
+</div>
+
+<div class="sponsor" title="Click to flip">
+<div class="sponsorFlip">
+<img src="img_portfolio/.jpg" alt="portfolio" />
+</div>
+<div class="sponsorData">
+<div class="sponsorDescription">
+<h4>DESIGN AND DEVELOPER</h4><span class="orange">by Tetiana Khomko</span>
+<a href="#" target="_blank">name of site</a></span>
+</div>
+<div class="sponsorURL">
+<a href="#" target="_blank" title="more">+ more</a>
+</div>
+</div>
+</div>
+
+<div class="sponsor" title="Click to flip">
+<div class="sponsorFlip">
+<img src="img_portfolio/.jpg" alt="portfolio" />
+</div>
+<div class="sponsorData">
+<div class="sponsorDescription">
+<h4>DESIGN AND DEVELOPER</h4><span class="orange">by Tetiana Khomko</span>
+<a href="#" target="_blank">name of site</a></span>
+</div>
+<div class="sponsorURL">
+<a href="#" target="_blank" title="more" >+ more</a>
+</div>
+</div>
+</div>
+
+<div class="sponsor" title="Click to flip">
+<div class="sponsorFlip">
+<img src="img_portfolio/.jpg" alt="portfolio" />
+</div>
+<div class="sponsorData">
+<div class="sponsorDescription">
+<h4>DESIGN AND DEVELOPER</h4><span class="orange">by Tetiana Khomko</span>
+<a href="#" target="_blank">name of site</a></span>
+</div>
+<div class="sponsorURL">
+<a href="#" target="_blank" title="more">+ more</a>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+<!--  End content1 -->
+</div>
+</div>
+<!--  End post -->
+       
+</div>
+<!-- End contright -->
+<div style="clear:both">
+</div>
+<div class="element4">
+   
+<div class="contleft"> 
+<div class="left">
+<h2 style="text-align:right;">Skill<br/><span class="orange">Technical</span></h2></div>
+</div>
+        
+<!--  Begin post -->
+<div class="post">
+<div class="post_content">
+<div  class="partcontent">
+<h3>Skill Technical</h3>
+<p class="date"><a href="#">my site</a></p>
+<p> I have been searching for trusted service for my site, there are many offers and services for SEO and web developing but it is sometimes confusing to determine which one is reliable. When I browse among many sites I found this one and see that they provide the service package including web design and company logo. I should say that they work professionally in conveying the value and image of my business company.<br /><br />
+As web developer they have year experience which should erase your doubt. From the rate 1 - 5, I give them 4 stars which mean advance and reliable service. With good position in the search result, soon you will be able to get higher profit by improved performance.</p>
+        	
+<ul class="tips">
+<li><h3>Adobe Photoshop</h3>
+<span class="rig">
+<img src="images/star2.gif"  alt="Star" />
+<img src="images/star2.gif"  alt="Star" />
+<img src="images/star2.gif"  alt="Star" />
+<img src="images/star1.gif"  alt="Star" />
+<img src="images/star1.gif"  alt="Star" />
+</span>
+</li>
+<li><h3>Adobe Illustrator</h3>
+<span class="rig">
+<img src="images/star2.gif"  alt="Star" />
+<img src="images/star2.gif"  alt="Star" />
+<img src="images/star2.gif"  alt="Star" />
+<img src="images/star1.gif"  alt="Star" />
+<img src="images/star1.gif"  alt="Star" />
+</span>
+</li>
+<li><h3>Adobe Dreamveawer</h3>
+<span class="rig">
+<img src="images/star2.gif"  alt="Star" />
+<img src="images/star2.gif"  alt="Star" />
+<img src="images/star2.gif"  alt="Star" />
+<img src="images/star2.gif"  alt="Star" />
+<img src="images/star1.gif"  alt="Star" />
+</span>
+</li>
+<li><h3>Adobe Flash</h3>
+<span class="rig">
+<img src="images/star2.gif"  alt="Star" />
+<img src="images/star2.gif"  alt="Star" />
+<img src="images/star2.gif"  alt="Star" />
+<img src="images/star2.gif"  alt="Star" />
+<img src="images/star1.gif"  alt="Star" />
+</span>
+</li>
+                    
+<li><h3>Corel Draw</h3>
+<span class="rig">
+<img src="images/star2.gif"  alt="Star" />
+<img src="images/star2.gif"  alt="Star" />
+<img src="images/star2.gif"  alt="Star" />
+<img src="images/star2.gif"  alt="Star" />
+<img src="images/star1.gif"  alt="Star" />
+</span>
+</li>
+                    
+<li><h3>Swish</h3>
+<span class="rig">
+<img src="images/star2.gif"  alt="Star" />
+<img src="images/star2.gif"  alt="Star" />
+<img src="images/star2.gif"  alt="Star" />
+<img src="images/star2.gif"  alt="Star" />
+<img src="images/star1.gif"  alt="Star" />
+</span>
+</li>
+                    
+<li><h3>Microsoft Office</h3>
+<span class="rig">
+<img src="images/star2.gif"  alt="Star" />
+<img src="images/star2.gif"  alt="Star" />
+<img src="images/star2.gif"  alt="Star" />
+<img src="images/star2.gif"  alt="Star" />
+<img src="images/star1.gif"  alt="Star" />
+</span>
+</li>
+                    
+<li><h3>PHP</h3>
+<span class="rig">
+<img src="images/star2.gif"  alt="Star" />
+<img src="images/star2.gif"  alt="Star" />
+<img src="images/star2.gif"  alt="Star" />
+<img src="images/star1.gif"  alt="Star" />
+<img src="images/star1.gif"  alt="Star" />
+</span>
+</li>
+                    
+<li><h3>Firework</h3>
+<span class="rig">
+<img src="images/star2.gif"  alt="Star" />
+<img src="images/star2.gif"  alt="Star" />
+<img src="images/star2.gif"  alt="Star" />
+<img src="images/star1.gif"  alt="Star" />
+<img src="images/star1.gif"  alt="Star" />
+</span>
+</li>
+
+<li><h3>Javascript</h3>
+<span class="rig">
+<img src="images/star2.gif"  alt="Star" />
+<img src="images/star2.gif"  alt="Star" />
+<img src="images/star2.gif"  alt="Star" />
+<img src="images/star1.gif"  alt="Star" />
+<img src="images/star1.gif"  alt="Star" />
+</span>
+</li>
+
+<li><h3>Swift 3D</h3>
+<span class="rig">
+<img src="images/star2.gif"  alt="Star" />
+<img src="images/star2.gif"  alt="Star" />
+<img src="images/star2.gif"  alt="Star" />
+<img src="images/star1.gif"  alt="Star" />
+<img src="images/star1.gif"  alt="Star" />
+</span>
+</li>
+
+</ul>
+</div>
+<!--  End content1 -->
+</div>
+</div>
+<!--  End post -->
+</div>
+<!-- End contright -->
+<div style="clear:both">
+</div>
+<div class="element5">
+<div class="contleft"> 
+<div class="left">
+<h2 style="text-align:right;">Other<br/><span class="orange">Information</span></h2>		</div>
+</div>
+<!--  Begin post -->
+<div class="post">
+<div class="post_content">
+<div class="partcontent">
+ <h3>Other Information</h3>
+<p class="date"><a href="http://tetianakhomko.github.io/portfolio">Tetiana-portfolio</a></p>
+<p>Many companies have put their trust on our service, for the value and quality that we deliver. With our service of web development, those companies have gained significant improvement in increasing their profit, and web design service also help those companies show their professionalism in serving their customers. With the SEO package, they also get higher market share from the high position on the search engine result which increased their visitors.</p>
+<h3>Clients</h3>
+<ul>
+<li><a href="#"></a></li>
+<li><a href="#">name of site</a></li>
+<li><a href="#"></a></li>
+<li><a href="#"></a></li>
+<li><a href="#"></a></li>
+<li><a href="#"></a></li>
+<li><a href="#"></a></li>
+<li><a href="#"></a></li>
+<li><a href="#"></a></li>
+<li><a href="#"></a></li>
+<li><a href="#"></a></li>
+<li><a href="#"></a></li>
+<li><a href="#"></a></li>
+<li><a href="#"></a></li>
+
+</ul>                
+<h3>Languages</h3>
+<ul>
+<li>Ukrainian</li>
+<li>English</li>
+<li>Russian</li>
+<li>Bolgarian</li>
+</ul>  
+</div>
+<!--  End content1 -->
+</div>
+</div>
+<!--  End post -->
+</div>
+<!-- End contright -->
+<div style="clear:both">
+</div>
+</div>
+<!-- End Main page posts -->
+</div>
+<!-- Begin footer -->
+ <div class="footer" id="footer">
+<p class="copy"><a href="http://tetianakhomko.github.io/portfolio">Tetiana Khomko </a> <span class="orange">|</span> Copyright &copy; 2017 </p>
+<ul class="menufooter">
+<li><img src="images/indicador2.jpg" alt="Creative Design" /><a href="#">Site</a></li>
+<li><img src="images/indicador2.jpg" alt="Email Me" /><a href="arnelli.tt@gmail.com">Email Me </a></li>
+</ul>
+</div>
+<!-- End footer -->
+</ul></body>
+</html>
